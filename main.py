@@ -32,6 +32,7 @@ def main():
         mismatch = find_mismatch(text)
         print(mismatch)
     elif "F" in ievade:
+        pass
     else:
         print("Jūsu tekstā jābut vai nu burtam I vai nu burtam F")
 main()
