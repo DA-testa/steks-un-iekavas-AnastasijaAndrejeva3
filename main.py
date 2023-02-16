@@ -26,8 +26,12 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
-    mismatch = find_mismatch(text)
-    print(mismatch)
-    # Printing answer, write your code here
+    ievade = input()
+    if "I" in ievade:
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    elif "F" in ievade:
+    else:
+        print("Jūsu tekstā jābut vai nu burtam I vai nu burtam F")
 main()
